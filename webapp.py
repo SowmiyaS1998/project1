@@ -2,7 +2,7 @@
 from flask import Flask
 application = Flask(__name__)
 
-@application.route("/5000")
+@application.route("/500")
 def enter():
   return "this is my new change in webpage"
 
